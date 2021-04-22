@@ -1,0 +1,67 @@
+doctype html
+html
+ title Dance Webpage
+ head 
+  style
+     include  ../static/style.css
+
+ body
+  nav#navbar
+    ul
+        div#logo
+            img(src = '/static/img/logo.png')
+
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class info]
+        li #[a(href="/") Contact Us]
+
+    section#introSection
+     div
+      span.w Welcome t
+      span.a o Arif's Dan
+      span.w ce Academy 
+     div
+      span.w EAT
+      span.a  DANCE
+      span.w  SLEEP REPEAT
+
+    section#missionSection
+     h2 Our Mission
+     div.card
+        h3 Dance
+        div.card-box
+            div.card-img
+                img(src="/static/img/p.png")
+            div.card-content
+            p This is Best Dance Academy and we teach you how to dance in every form.
+     div.card
+        h3 Become Expert
+        div.card-box
+            div.card-img
+                img(src="/static/img/r.png")
+            div.card-content
+            p  We offers many courses to teach you your fav dance by experts.
+     div.card
+        h3 Gain Confidence
+        div.card-box
+            div.card-img
+                img(src="/static/img/q.png")
+            div.card-content
+            p We Teach you just like you can dance everywhere and gain confidence.
+
+
+    section#sponsorsSection
+     h2 Our Sponsors
+     div#sponsors
+        img(src="/static/img/3.png", alt="sponsor 1", class= "spImage")
+        img(src="/static/img/4.png", alt="sponsor 1", class= "spImage")
+        img(src="/static/img/5.png", alt="sponsor 1", class= "spImage")
+        img(src="/static/img/6.png", alt="sponsor 1", class= "spImage")
+        img(src="/static/img/1.jpeg", alt="sponsor 1", class= "spImage")
+
+    footer#footer
+     | CopyRight © 2020 WWW.ArifDanceAcademyADA.com
+  script
+      include ../static/../static/index.js
